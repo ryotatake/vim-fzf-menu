@@ -5,7 +5,7 @@ if !exists("g:fzf_menu_list")
   let g:fzf_menu_list = []
 endif
 
-nnoremap <silent> <Plug>(fzf_menu) :call fzf_menu#run()
+nnoremap <silent> <Plug>(fzf_menu) :call fzf_menu#run()<CR>
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
